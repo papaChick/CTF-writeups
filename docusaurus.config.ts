@@ -13,12 +13,12 @@ const config: Config = {
   url: 'https://papachick.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/CTF-writeups/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'papachick.github.io', // Usually your GitHub org/user name.
-  projectName: 'ctf-writeups', // Usually your repo name.
+  organizationName: 'papaChick', // Usually your GitHub org/user name.
+  projectName: 'CTF-writeups', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
