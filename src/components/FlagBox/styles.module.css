@@ -1,0 +1,43 @@
+.flagContainer {
+    border-radius: 6px;
+    border-left: 5px solid #ff5370;
+    margin: 1rem 0;
+    overflow: hidden;
+    background-color: var(--ifm-card-background-color);
+    box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.flagHeader {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 1rem;
+    background-color: rgba(255, 83, 112, 0.1);
+}
+
+.flagIcon {
+    margin-right: 0.5rem;
+}
+
+.flagTitle {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: auto;
+    color: var(--ifm-font-color-base);
+    opacity: 0.9;
+}
+
+.flagContent {
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flagContent pre {
+    margin: 0;
+    font-size: 1rem;
+    font-family: var(--ifm-font-family-monospace);
+    overflow-x: auto;
+    background: transparent;
+    color: var(--ifm-font-color-base);
+}
